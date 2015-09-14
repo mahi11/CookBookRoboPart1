@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8558181B99187400ECF7FE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8558171B99187400ECF7FE /* SecondViewController.m */; };
+		2B85581A1B99198B00ECF7FE /* halo5_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8558191B99198B00ECF7FE /* halo5_2.jpg */; };
+		2B85581D1B991DAF00ECF7FE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85581C1B991DAF00ECF7FE /* ThirdViewController.m */; };
 		2B9552FE1B99153D00A38017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9552FD1B99153D00A38017 /* main.m */; };
 		2B9553011B99153D00A38017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9553001B99153D00A38017 /* AppDelegate.m */; };
 		2B9553041B99153D00A38017 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9553031B99153D00A38017 /* ViewController.m */; };
@@ -27,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B8558161B99187400ECF7FE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2B8558171B99187400ECF7FE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2B8558191B99198B00ECF7FE /* halo5_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = halo5_2.jpg; path = ../../../Documents/halo5_2.jpg; sourceTree = "<group>"; };
+		2B85581B1B991DAF00ECF7FE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2B85581C1B991DAF00ECF7FE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		2B9552F81B99153D00A38017 /* lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9552FC1B99153D00A38017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B9552FD1B99153D00A38017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,11 +89,16 @@
 		2B9552FA1B99153D00A38017 /* lab1 */ = {
 			isa = PBXGroup;
 			children = (
+				2B8558191B99198B00ECF7FE /* halo5_2.jpg */,
+				2B8558161B99187400ECF7FE /* SecondViewController.h */,
+				2B8558171B99187400ECF7FE /* SecondViewController.m */,
 				2B9552FF1B99153D00A38017 /* AppDelegate.h */,
 				2B9553001B99153D00A38017 /* AppDelegate.m */,
 				2B9553021B99153D00A38017 /* ViewController.h */,
 				2B9553031B99153D00A38017 /* ViewController.m */,
 				2B9553051B99153D00A38017 /* Main.storyboard */,
+				2B85581B1B991DAF00ECF7FE /* ThirdViewController.h */,
+				2B85581C1B991DAF00ECF7FE /* ThirdViewController.m */,
 				2B9553081B99153D00A38017 /* Images.xcassets */,
 				2B95530A1B99153D00A38017 /* LaunchScreen.xib */,
 				2B9552FB1B99153D00A38017 /* Supporting Files */,
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B85581A1B99198B00ECF7FE /* halo5_2.jpg in Resources */,
 				2B9553071B99153D00A38017 /* Main.storyboard in Resources */,
 				2B95530C1B99153D00A38017 /* LaunchScreen.xib in Resources */,
 				2B9553091B99153D00A38017 /* Images.xcassets in Resources */,
@@ -219,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8558181B99187400ECF7FE /* SecondViewController.m in Sources */,
+				2B85581D1B991DAF00ECF7FE /* ThirdViewController.m in Sources */,
 				2B9553041B99153D00A38017 /* ViewController.m in Sources */,
 				2B9553011B99153D00A38017 /* AppDelegate.m in Sources */,
 				2B9552FE1B99153D00A38017 /* main.m in Sources */,
@@ -418,6 +434,7 @@
 				2B95531D1B99153D00A38017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B95531E1B99153D00A38017 /* Build configuration list for PBXNativeTarget "lab1Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +443,7 @@
 				2B9553201B99153D00A38017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
