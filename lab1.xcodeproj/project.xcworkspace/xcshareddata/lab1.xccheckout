@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E81A8DCC-57B8-4AF3-9640-227AAAF934A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lab1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>81BDA9AF537409B0448808C4933B5BCE3C52EB33</key>
+		<string>https://www.github.com/mahi11/RTBDLab1.git</string>
+		<key>D9555127DCA7072F9FB6E25A1201C4EF2B63713E</key>
+		<string>https://github.com/mahi11/RTBDLab1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lab1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>81BDA9AF537409B0448808C4933B5BCE3C52EB33</key>
+		<string>../../..</string>
+		<key>D9555127DCA7072F9FB6E25A1201C4EF2B63713E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mahi11/RTBDLab1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D9555127DCA7072F9FB6E25A1201C4EF2B63713E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>81BDA9AF537409B0448808C4933B5BCE3C52EB33</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D9555127DCA7072F9FB6E25A1201C4EF2B63713E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lab1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

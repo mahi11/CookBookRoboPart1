@@ -34,10 +34,12 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (IBAction)tappedOnView1:(id)sender {
-    ViewController *controller = [ self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
-    [self presentViewController:controller animated:YES completion:NULL];
-}
+- (IBAction)tappedonView1:(id)sender {
+   
+        ViewController *controller = [ self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+        [self presentViewController:controller animated:YES completion:NULL];
+    }
+
 - (IBAction)tappedOnView2:(id)sender {
     SecondViewController *controller = [ self.storyboard instantiateViewControllerWithIdentifier:@"SecondViewController"];
     [self presentViewController:controller animated:YES completion:NULL];
